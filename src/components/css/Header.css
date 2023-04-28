@@ -1,0 +1,198 @@
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: black !important;
+}
+.header_cont {
+    height: 77px;
+    width: 100%;
+}
+
+.header_cont .mb-3 {
+
+    width: 100%;
+    z-index: 3;
+}
+.n_iconDoc {
+    font-size: 15px !important;
+    position: relative;
+    top: 1px;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#offcanvasNavbar-expand-xxl {
+    background-color: black;
+    color: white;
+    width: 70%;
+}
+
+.nav-link {
+    font-size: 19px;
+    color: #cfcfcf;
+}
+
+
+.btn-close {
+    background-color: white;
+}
+
+.offcanvas-body {
+    margin-left: 10px;
+}
+
+.n_icon {
+    margin-top: -6px;
+    margin-right: 5.8px;
+}
+
+.f_icon {
+    font-size: 31px;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+ol,
+ul {
+    padding-left: 0px;
+}
+
+.btn-close {
+    position: absolute;
+    right: 29px;
+    top: 26px;
+}
+
+.nav_p {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+#v_name {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    font-size: 12.5px;
+    color: #a7a7a7;
+}
+
+.pe-3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.offcanvas-body {
+    margin-left: 10px;
+    margin-top: -31px;
+}
+.offcanvas-header {
+    justify-content: center;
+ 
+}
+.navbar-expand-md .navbar-nav {
+    flex-direction: row;
+    margin-top: 29px;
+}
+
+
+
+
+@media (max-width:1200px) {
+    .d-flex {
+        margin-top: 15px;
+    }
+
+    #v_name {
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 25px;
+        font-size: 12.5px;
+        color: #a7a7a7;
+    }
+
+    .carousel_cont {
+        margin-top: -16px;
+    }
+
+    .header_cont {
+        height: 74px;
+        width: 100%;
+    }
+
+    .pe-3 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .nav_p {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .nav_v {
+        position: absolute;
+        bottom: 0px;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+ 
+}
+
+@media (max-width:800px) {
+    .logo_img{
+        width:44px;
+    }
+    .logo_txt{
+        margin-top:5px;
+    }
+    .pe-3 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .nav-link {
+        font-size: 19px;
+    }
+
+    .offcanvas-title {
+        font-size: 24px;
+    }
+
+    .header_cont {
+        height: 79px;
+        width: 100%;
+    }
+
+    .nav_p {
+        font-size: 23px;
+        line-height: 31px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .btn-close {
+        position: absolute;
+        right: 21px;
+        top: 20px;
+    }
+
+    .img_main_container p {
+        top: 242px;
+        width:70%;
+    }
+    .nav_v {
+        position: absolute;
+        bottom: 0px;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+
+
+}

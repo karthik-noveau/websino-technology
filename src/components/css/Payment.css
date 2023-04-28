@@ -1,0 +1,157 @@
+.inpt {
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+}
+.inpt button{
+    background-color:green;
+    border:none;
+    color:white;
+    border-radius:8px;
+    padding:8px 20px; 
+    font-size:19px; 
+
+}
+
+.or p{
+    text-align:center;
+    font-size:25px;
+    margin-top:40px;
+    font-weight:bold;
+}
+
+.pay_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.pay_container img:nth-child(1) {
+    width: 75%;
+}
+
+.gpay_icon_container img {
+    width: 55px;
+    height: 49px;
+}
+
+.payment_google_payment {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpay_icon_container {
+    width: 40%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.gpay_icon_container p {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.gpay_icon {
+    display: flex;
+    justify-content: center;
+}
+
+.pay_title {
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.upi {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media (max-width:1422px) {
+    .pay_container img {
+        width: 250px;
+    }
+
+    .pay_title {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .gpay_icon_container {
+        width: 70%;
+    }
+
+    .gpay_icon_container img {
+        width: 65px;
+    }
+
+    .gpay_icon_container p {
+        font-size: 24px;
+    }
+
+    .upi {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .gpay_icon_container p {
+        font-size: 21px;
+
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .gpay_icon_container img {
+        width: 46px;
+        height:40px;
+    }
+
+    .gpay_icon_container {
+        margin-top: 23px;
+    }
+
+    .pay_title {
+        margin-top: 16px;
+        font-size: 25px;
+
+    }
+
+    .upi {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+.pay_container img:nth-child(1) {
+    width: 100%;
+}
+.inpt button {
+    padding: 6px 20px;
+    font-size: 16px;
+    margin-top:-15px;
+}
+.or p{
+    text-align:center;
+    font-size:20px;
+    margin-top:20px;
+    font-weight:bold;
+}
+.gpay_icon {
+    margin-top: -14px;
+}
+
+}

@@ -1,0 +1,559 @@
+/* title 1 and img_slider */
+.title_1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_1 p {
+    font-size: 45px;
+    color: black;
+    font-weight: 800;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.title_1 hr {
+    width: 80%;
+
+}
+
+.title_1 img {
+    width: 100%;
+    margin-top: 28px;
+}
+
+.footer_line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#themaking-text{
+    font-weight: 500;
+    font-size:28px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+   
+}
+.footer_line1{
+    margin-bottom: 10px !important;
+}
+
+.footer_line>hr {
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+
+/* image container */
+
+.img_main_container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.img_main_container button {
+    border: 1px solid transparent;
+    background-color: #00ff84;
+    padding: 2px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.img_main_container a {
+    position: absolute;
+    top: 232px;
+    right: 150px;
+}
+
+.img_main_container p {
+    position: absolute;
+    top: 78px;
+    right: 10px;
+    color: white;
+    width: 50%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+}
+.pre_p{
+    display: none;
+}
+.aft_p{
+    display:block ;
+}
+
+/* what we do */
+.whatwedo_main_cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.whatwedo_cont{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.whatwedo_cont .main_title{
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom:0px;
+    color: black;
+    font-weight:600;
+}
+.whatwedo_cont_sub2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 12px;
+    width: 380px;
+    padding: 40px 0px;
+    box-shadow: 0px 0px 7px 0px #ebebeb;
+    margin-top: 45px;
+}
+.whatwedo_cont_sub2 button {
+    border-radius: 5px;
+    color: black;
+    border: 1px solid transparent;
+    font-size: 15px;
+    padding: 4px 11px 5px 10px;
+}
+#whatwe_icon{
+    font-size:34px;
+    color: black;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.whatwedo_cont_sub2 h3 {
+    font-size: 19px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom:17px;
+    font-weight:600;
+}
+.whatwedo_cont_sub1{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+
+/* clients */
+.ourClient_main_title{
+    text-align: center;
+    margin-top:79px;
+    margin-bottom:30px;
+    color: black;
+    font-weight:600;
+    font-size: 32px;
+}
+.clients_main_cont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.clients_cont{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.clients_cont img{
+    width:120px;
+    border-radius: 8px;
+    margin:0px 25px;
+}
+.clients_cont img:nth-child(2){
+    width:220px;
+}
+
+
+/* course and internship list */
+.list_container {
+    display: flex;
+    justify-content: center;
+}
+
+.list_main_container {
+    display: flex;
+    justify-content: center;
+    width: 500%;
+
+
+}
+#onlineclass-title{
+    margin-top: 15px !important;
+    color: green !important;
+}
+
+.list_main_container button {
+    background-color: black;
+    color: white;
+    padding: 8px 37px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    margin: 0px 30px;
+    margin-top: 60px;
+
+    font-size: 21px;
+}
+
+
+
+
+
+/* features */
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.features ul li {
+    line-height: 35px;
+    font-size: 22px;
+    word-spacing: 1px;
+    font-weight: bold;
+
+}
+
+
+
+/* timing */
+.class_time {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.class_time_container {
+    display: flex;
+}
+
+.class_time_container p {
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.class_time .gmeet_container {
+    width: 100%;
+}
+
+.gmeet_container img {
+    width: 57px;
+    margin-left: 25px;
+}
+
+
+
+
+
+/* title 2 */
+.title_2 p {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 30px 0 0 29px;
+}
+
+/* course list */
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.item_1 {
+    padding: 10px;
+}
+
+.courses .item_1_container {
+    width: 320px;
+    height: 292px;
+    box-shadow: 1px 1px 10px 1px grey;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.courses .item_1_container img {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.courses .item_1_container p {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.courses .item_1_container button {
+    border: 1px solid transparent;
+    background-color: #00ff84;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.courses .item_1_container a {
+    position: absolute;
+    right: 5px;
+    bottom: 23px;
+    margin-top: 20px;
+
+}
+.courses .item_1_container a .item_1_icon {
+    position: relative;
+    top: -0.9px;
+    font-weight: bold;
+}
+
+
+
+/* payment */
+
+.home_pay_container {
+    display: flex;
+    justify-content: center;
+}
+
+.home_pay p {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #00ff84;
+    border-radius: 8px;
+    color: black;
+    padding: 11px 23px;
+    margin-top: 70px;
+}
+
+
+
+/* ----responsive----- */
+
+@media (max-width:1200px) {
+
+    /* title 1 and img_slider */
+    .title_1 p {
+        font-size: 40px;
+        color: black;
+        font-weight: 800;
+        margin-top: 7px;
+        margin-bottom: -2px;
+    }
+
+    .title_1 hr {
+
+        width: 70%;
+    }
+
+    .title_2 p {
+        margin-left: 10px;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .title_1 img {
+        width: 100%;
+
+    }
+
+    .img_main_container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .img_main_container a {
+        top: 156px;
+        right: 84px;
+    }
+
+
+    .img_main_container button {
+        padding: 5px 20px;
+        font-size: 19px;
+    }
+
+    .img_main_container p {
+        font-size: 25px;
+        top: 91px;
+        right: 30px;
+        font-weight: 500;
+        width: 80%;
+        word-spacing: 1px;
+        line-height: 29px;
+        color: white;
+    }
+
+    .courses {
+        margin-top: -3px;
+    }
+
+
+
+
+    /* course and internship list  */
+
+    .list_main_container button {
+        padding: 5px 20px;
+        margin: 0px 16px;
+        margin-top: 27px;
+        font-size: 16px;
+    }
+
+    /* features */
+    .features {
+        margin-top: 25px;
+    }
+
+    .features ul {
+        justify-content: flex-start;
+    }
+
+    .features ul li {
+        line-height: 35px;
+        font-size: 17px;
+        word-spacing: 1px;
+        list-style-type: none;
+    }
+
+
+    /* timing */
+
+
+    .class_time {
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
+
+    .class_time_container p {
+        font-size: 27px;
+    }
+
+    .gmeet_container img {
+        width: 38px;
+        margin-left: 11px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .img_main_container a {
+        top: 361px;
+        right: 100px;
+    }
+    #themaking-text{
+        font-weight: 500;
+        font-size:16px;
+    }
+    .courses .item_1_container {
+        width: 171px;
+        height: 200px;
+        margin: 4px 0px;
+
+    }
+
+    .courses .item_1_container p {
+        margin-top: 5px;
+        font-size: 13.2px;
+        line-height: 17px;
+        color: #252525;
+    }
+
+    .courses .item_1_container button {
+        font-size: 12.5px;
+        padding: 3px 8px;
+    }
+
+    .courses .item_1_container a {
+        bottom: 9px;
+        right: 8px;
+        margin-top: 20px;
+    }
+
+    .title_2 p {
+        margin-left: 10px;
+        font-size: 27px;
+        margin-top: 36px;
+        margin-bottom: 10px;
+    }
+
+    .logo p {
+        font-size: 31px;
+    }
+
+    .logo img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .img_main_container {
+        margin-top: 0px;
+        width: 100% ;
+        height: 600px;
+    }
+    .img_main_container img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .title_1 p {
+        font-size: 30px;
+        color: black;
+        font-weight: 800;
+        margin-top: 4px;
+        margin-bottom: -5px;
+    }
+
+    .img_main_container p {
+        font-size: 20px;
+        color: white;
+        font-weight:400;
+        width: 82%;
+    }
+
+    .img_main_container button {
+        padding: 1px 19px;
+        font-size: 17px;
+    }
+    .whatwedo_cont_sub2 {
+        margin-top: 26px;
+        padding: 32px 0;
+    }
+    .clients_cont {
+        flex-direction: column;
+    }
+    .clients_cont img {
+        margin-bottom: 17px;
+    }
+    .clients_main_cont{
+        margin-bottom: 50px;
+    }
+
+}

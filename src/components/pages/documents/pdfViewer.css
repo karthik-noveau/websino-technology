@@ -1,0 +1,41 @@
+ #appbar{
+    background-color: black !important;
+    position: fixed !important;
+    top: 0 !important;
+}
+.ControlHolder {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.ControlContainer {
+    width: 90%;
+    display: flex;
+    padding-bottom: 18px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+    flex-direction: column;
+    border-bottom: 1px solid #dfdfdf;
+}
+.ControlContainerBox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12px;
+}
+.ControlContainer Button{
+    
+    
+    color: color;
+}
+.pdfViewerContainer{
+    margin-top: 30px;
+}
+.ControlContainer p:first-child {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+}
