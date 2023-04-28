@@ -3,6 +3,7 @@ import axios from 'axios';
 import MONGO_URL from '../../../config';
 import feedbackImg from '../../Assets/feedbackImg.jpg'
 import './feedBack.css'
+import kumClg from '../../Assets/kumClg.png'
 // ------MUI-----
 import TextField from '@mui/material/TextField';
 import InputLabel from '@mui/material/InputLabel';
@@ -19,25 +20,32 @@ function FeedBack() {
     const [comments, setComments] = useState('');
     console.log("data1", MONGO_URL)
 
-    const handleSubmit = async (event) => {
-        
+    async function handleSubmit(event) {
+
         event.preventDefault();
-        console.log("data")
 
-        const user = { name, tutor, rating, comments };
-        console.log("MONGO_URL,", MONGO_URL)
+        if (name != '' && tutor != '' && rating != 0 && comments != 0) {
+            console.log("data")
+            const user = { name, tutor, rating, comments };
+            console.log("MONGO_URL,", MONGO_URL)
 
-        try {
-            const response = await axios.post(`${MONGO_URL}/feedback`, user);
-            console.log(response.data);
-        } catch (error) {
-            console.error(error);
+            try {
+                const response = await axios.post(`${MONGO_URL}/feedback`, user);
+                console.log(response.data);
+            } catch (error) {
+                console.error(error);
+            }
+        }
+        else {
+            alert("Enter Valid details")
         }
     };
 
     return (
         <>
+          
             <div className='feedbackContainer'>
+
                 <div className='feedbackContainerBox'>
                     <div className='feedbackContainerBoxPiece1'>
                         <img src={feedbackImg} />
@@ -45,13 +53,19 @@ function FeedBack() {
 
                     <div className='feedbackContainerBoxPiece2'>
                         <form onSubmit={handleSubmit}>
+                        <div className='feedbackFromTitle'>
+
+                <img src={kumClg} />
+                <p>FeedBack Form</p>
+              
+            </div>
                             <div className='inputContainer'>
                                 <label>Name</label>
-                                <TextField id="standard-basic" placeholder='Name' variant="standard" className='inputContainerBox' />
+                                <TextField id="standard-basic" value={name} placeholder='Name' variant="standard" className='inputContainerBox' onChange={(e) => setName(e.target.value)} />
                             </div>
                             <div className='inputContainer'>
                                 <label>Rating</label>
-                                <FormControl variant="standard"   className='inputContainerBox'>
+                                <FormControl variant="standard" className='inputContainerBox'>
 
                                     <Select
                                         labelId="demo-simple-select-standard-label"
@@ -60,14 +74,14 @@ function FeedBack() {
                                         onChange={(e) => setTutor(e.target.value)}
                                         label="Tutor"
                                         displayEmpty
-                                      
+
                                     >
                                         <MenuItem value="" disabled>
                                             <em>Select a tutor</em>
                                         </MenuItem>
-                                        <MenuItem value={10}>Ten</MenuItem>
-                                        <MenuItem value={20}>Twenty</MenuItem>
-                                        <MenuItem value={30}>Thirty</MenuItem>
+                                        <MenuItem value="Kannan">Kannan</MenuItem>
+                                        <MenuItem value="Karthika">Karthika </MenuItem>
+                                        <MenuItem value="Karthik">Karthik</MenuItem>
                                     </Select>
                                 </FormControl>
 
@@ -75,7 +89,7 @@ function FeedBack() {
                             <div className='inputContainer'>
                                 <label>Give your Rating</label>
                                 <Rating
-                                  className='inputContainerBox'
+                                    className='inputContainerBox'
                                     name="simple-controlled"
                                     value={rating}
                                     onChange={(event, newValue) => {
@@ -83,14 +97,16 @@ function FeedBack() {
                                     }}
                                 />
                             </div>
-                            <div className='inputContainer'> 
+                            <div className='inputContainer'>
                                 <label className='textAreaLable'>Comment</label>
                                 <textarea value={comments} onChange={(e) => setComments(e.target.value)} className='inputContainerBox'>
 
                                 </textarea>
 
                             </div>
-                            <Button variant="contained" >Submit</Button>
+                            <div className='inputContainer'>
+                                <Button variant="contained" type="submit" >Submit</Button>
+                            </div>
                         </form>
                     </div>
                 </div>
