@@ -24,14 +24,16 @@ function FeedBack() {
 
         event.preventDefault();
 
-        if (name != '' && tutor != '' && rating != 0 && comments != 0) {
-            console.log("data")
+        if (name != '' && tutor != '' && rating != 0 && comments != '') {
+           
             const user = { name, tutor, rating, comments };
+            console.log("data",user)
             console.log("MONGO_URL,", MONGO_URL)
 
             try {
                 const response = await axios.post(`${MONGO_URL}/feedback`, user);
                 console.log(response.data);
+                alert("Thank you for your feedback")
             } catch (error) {
                 console.error(error);
             }
