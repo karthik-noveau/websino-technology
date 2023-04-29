@@ -15,6 +15,7 @@ import { Button } from '@mui/material';
 
 function FeedBack() {
     const [name, setName] = useState('');
+    const [regNo, setRegNo] = useState(0)
     const [tutor, setTutor] = useState('');
     const [rating, setRating] = useState(0);
     const [comments, setComments] = useState('');
@@ -24,10 +25,10 @@ function FeedBack() {
 
         event.preventDefault();
 
-        if (name != '' && tutor != '' && rating != 0 && comments != '') {
-           
-            const user = { name, tutor, rating, comments };
-            console.log("data",user)
+        if (name != '' && regNo!=0 && tutor != '' && rating != 0 && comments != '') {
+
+            const user = { name,regNo, tutor, rating, comments };
+            console.log("data", user)
             console.log("MONGO_URL,", MONGO_URL)
 
             try {
@@ -45,7 +46,7 @@ function FeedBack() {
 
     return (
         <>
-          
+
             <div className='feedbackContainer'>
 
                 <div className='feedbackContainerBox'>
@@ -55,15 +56,19 @@ function FeedBack() {
 
                     <div className='feedbackContainerBoxPiece2'>
                         <form onSubmit={handleSubmit}>
-                        <div className='feedbackFromTitle'>
+                            <div className='feedbackFromTitle'>
 
-                <img src={kumClg} />
-                <p>FeedBack Form</p>
-              
-            </div>
+                                <img src={kumClg} />
+                                <p>FeedBack Form</p>
+
+                            </div>
                             <div className='inputContainer'>
                                 <label>Name</label>
                                 <TextField id="standard-basic" value={name} placeholder='Name' variant="standard" className='inputContainerBox' onChange={(e) => setName(e.target.value)} />
+                            </div>
+                            <div className='inputContainer'>
+                                <label>Reg No</label>
+                                <TextField id="standard-basic" value={regNo} placeholder='Reg No' variant="standard" className='inputContainerBox' onChange={(e) => setRegNo(e.target.value)} />
                             </div>
                             <div className='inputContainer'>
                                 <label>Rating</label>
@@ -101,7 +106,7 @@ function FeedBack() {
                             </div>
                             <div className='inputContainer'>
                                 <label className='textAreaLable'>Comment</label>
-                                <textarea value={comments} onChange={(e) => setComments(e.target.value)} className='inputContainerBox'>
+                                <textarea value={comments} onChange={(e) => setComments(e.target.value)} className='inputContainerBox' placeholder='write your comments'>
 
                                 </textarea>
 
