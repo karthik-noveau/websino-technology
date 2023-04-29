@@ -15,7 +15,7 @@ import { Button } from '@mui/material';
 
 function FeedBack() {
     const [name, setName] = useState('');
-    const [regNo, setRegNo] = useState(0)
+    const [regNo, setRegNo] = useState('')
     const [tutor, setTutor] = useState('');
     const [rating, setRating] = useState(0);
     const [comments, setComments] = useState('');
