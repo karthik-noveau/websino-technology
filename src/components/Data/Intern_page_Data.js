@@ -69,7 +69,7 @@
                 t1: "How to deploy your projects in live server"
             }
         ],
-        price: 1500
+        price: 2000
     },
     {
         id:4,
@@ -93,7 +93,7 @@
                 t1: "How to deploy react js  projects in live server"
             }
         ],
-        price: 1500
+        price: 2000
     },
     {
         id:5,
@@ -117,7 +117,7 @@
                 t1: "Spark in cloud (Databricks)..."
             }
         ],
-        price: 1500
+        price: 2000
     },
     {
         id:6,
@@ -141,7 +141,7 @@
                 t1: "ML librarys"
             }
         ],
-        price: 1500
+        price: 2000
     },
     {
         id:7,
@@ -189,7 +189,7 @@
                 t1: "How to deploy your projects from Github in live server"
             }
         ],
-        price: 500
+        price: 1500
     },
     {
         id:9,
@@ -213,7 +213,7 @@
                 t1: "how to use free templates in Ps"
             }
         ],
-        price: 500
+        price: 1500
     },
     {
         id:10,
@@ -237,6 +237,103 @@
                 t1: "CURD Application"
             }
         ],
-        price: 1500
+        price: 2000
     },
+    {
+        id: 11,
+        C_title: " IOT Development",
+        image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_12.png?alt=media&token=06f599fe-57e2-4c81-b6bd-bbf0f90f9d67",
+        C_des: "Enhance your development skills by learning Internet of Things",
+        topics: [
+            {
+                t1: "Fundamentals of IOT"
+            },
+            {
+                t1: "Interation with Arduino Board"
+            },
+            {
+                t1: "Architecture of Arduino with Different Types"
+            },
+            {
+                t1: "TinkerCard Environment Experience"
+            },
+            {
+                t1: "Hands on Traffic Light project"
+            }
+        ],
+        price: 2000
+    },
+    {
+        id: 12,
+        C_title: " Python Programming Language",
+        image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_13.png?alt=media&token=a0a4d7c1-2f97-4f99-a3f3-5019a222465b",
+        C_des: "Enhance your programming skills by learning Python",
+        topics: [
+            {
+                t1: "How to configure Python IDLE"
+            },
+            {
+                t1: "Basic programs"
+            },
+            {
+                t1: "Arrays, Strings, Objects etc..."
+            },
+            {
+                t1: "Functions and Oops conscepts"
+            },
+            {
+                t1: "Hands on Project with certification"
+            }
+        ],
+        price: 2000
+    },
+    {
+        id: 13,
+        C_title: " C Programming Language",
+        image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_10.png?alt=media&token=1778f356-24ac-4de2-ba02-b25c4f42c22e",
+        C_des: "Enhance your programming skills by learning C",
+        topics: [
+            {
+                t1: "How to configure C Compiler"
+            },
+            {
+                t1: "Basic programs"
+            },
+            {
+                t1: "Arrays, Strings, etc..."
+            },
+            {
+                t1: "Functions and it's conscepts"
+            },
+            {
+                t1: "Hands on Project with certification"
+            }
+        ],
+        price: 2000
+    },
+    {
+        id: 14,
+        C_title: " MERN Full Stack Development",
+        image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_14.png?alt=media&token=5ec9c476-c100-467a-953e-7daff5ea23b8",
+        C_des: "Enhance your programming skills by learning MERN Stack",
+        topics: [
+            {
+                t1: "Fundamentals of HTML5, CSS3"
+            },
+            {
+                t1: "Basic knowledge of Javascript "
+            },
+            {
+                t1: "Fundamentals of React j s"
+            },
+            {
+                t1: "Introduction of Node js and Express Js "
+            },
+            {
+                t1: "CURD Applicaiton with MongoDB"
+            }
+        ],
+        price: 2000
+    },
+    
 ]

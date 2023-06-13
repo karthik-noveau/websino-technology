@@ -7,7 +7,7 @@ export const InternData=[
     {
         image:"https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_10.png?alt=media&token=1778f356-24ac-4de2-ba02-b25c4f42c22e",
         text:"Learn C programming language",
-        link:"/C_page_10"
+        link:"/I_page_10"
     },
     {
         image:"https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_3_.png?alt=media&token=dd636870-a94e-47c8-b210-686b8eb122ba",
@@ -33,5 +33,20 @@ export const InternData=[
         image:"https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_6.png?alt=media&token=68544d29-c08d-4cf4-bc84-107e489d72e3",
         text:"Learn Machine Learning",
         link:"/I_page_6"
-    }
+    },
+    {
+        image:"https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_12.png?alt=media&token=06f599fe-57e2-4c81-b6bd-bbf0f90f9d67",
+        text:"Learn IOT with new things",
+        link:"/I_page_12"
+    },
+    {
+        image:"https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_13.png?alt=media&token=a0a4d7c1-2f97-4f99-a3f3-5019a222465b   ",
+        text:"Learn Python programming language",
+        link:"/I_page_13"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_14.png?alt=media&token=5ec9c476-c100-467a-953e-7daff5ea23b8",
+        text: "Learn MERN Full Stack ",
+        link: "/I_page_14"
+    },
 ]

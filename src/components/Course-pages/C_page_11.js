@@ -16,21 +16,21 @@ function C_page_11() {
     return (
         <div>
                {  
-                  count ?  (<div className="blur_cont"><Payments amount={Course_page_Data[10].price} /></div>) :""
+                  count ?  (<div className="blur_cont"><Payments amount={Course_page_Data[9].price} /></div>) :""
             }
            
             <div className="detail_container" >
                 <div className="detail_main_container">
-                    <p className="title_text" data-aos="flip-up">Course :{Course_page_Data[10].C_title} </p>
+                    <p className="title_text" data-aos="flip-up">Course :{Course_page_Data[9].C_title} </p>
 
 
                     {/* image container */}
                     <div className="detail_img_contanier" data-aos="fade-right">
                         <div className="detail_img">
-                            <img src={Course_page_Data[10].image} />
+                            <img src={Course_page_Data[9].image} />
                         </div>
                         <div className="img_txt_container">
-                            <p>{Course_page_Data[10].C_des}</p>
+                            <p>{Course_page_Data[9].C_des}</p>
                         </div>
 
                     </div>
@@ -43,7 +43,7 @@ function C_page_11() {
                             <div className="offer_container" >
                                 <p data-aos="flip-up">What you'll learn</p>
                                 <ul>
-                                    {Course_page_Data[10].topics.map((itm) => (
+                                    {Course_page_Data[9].topics.map((itm) => (
                                         <li data-aos="flip-left">{itm.t1}</li>
                                     ))
                                     }
@@ -54,7 +54,7 @@ function C_page_11() {
                             <div className="payment_container" data-aos="fade-left">
                                 <div className="pay_main_container">
                                     <img src={payment} />
-                                    <p>Rs: ₹{Course_page_Data[10].price}/-</p>
+                                    <p>Rs: ₹{Course_page_Data[9].price}/-</p>
                                     <a href="https://forms.gle/AVB8q9r5ZoV2uYf46" target="_blank"><button>Register here</button></a>
                                     <button onClick={handleSubmit}>Click here to Payment</button>
                                 </div>

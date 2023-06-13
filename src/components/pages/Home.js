@@ -41,7 +41,7 @@ function Home() {
                         <img src={slider_img} data-aos="zoom-out" />
                         <p data-aos="zoom-out" className={setCnt ? "aft_p" : "pre_p"}>Registration is open now for Courses & Internships at an Affordable package
 
- </p>
+                        </p>
                         <a href="#internships" data-aos="zoom-out" className={setCnt ? "aft_p" : "pre_p"}><button>Enroll now</button></a>
                     </div>
                 </div>
@@ -58,11 +58,11 @@ function Home() {
                             <button >Know more</button>
                         </div>
                         <div className="whatwedo_cont_sub2" data-aos="fade-up">
-                            <BiPen id='whatwe_icon'  />
+                            <BiPen id='whatwe_icon' />
                             <h3>Grapic Design</h3>
                             <button>Know more</button>
                         </div>
-                        <div className="whatwedo_cont_sub2"    data-aos="fade-up">
+                        <div className="whatwedo_cont_sub2" data-aos="fade-up">
                             <TbBrandGoogleAnalytics id='whatwe_icon' />
                             <h3>Search Engine Optimization(SEO)</h3>
                             <button>Know more</button>
@@ -78,7 +78,7 @@ function Home() {
                 <div className="clients_cont">
                     <img src={whc} alt='1' data-aos="fade-up" />
                     <img src={foodsearcher} alt='1' data-aos="fade-up" />
-                    <img src={apollo} alt='1' data-aos="fade-up"/>
+                    <img src={apollo} alt='1' data-aos="fade-up" />
                 </div>
             </div>
 
@@ -89,7 +89,7 @@ function Home() {
                 <div className="footer_line">
                     <hr></hr>
                 </div>
-               
+
             </div>
             {/* course and internship list */}
             <div className="list_container">
@@ -115,7 +115,7 @@ function Home() {
                 <div className="class_time_container">
                     <p id="Training" data-aos="fade-up">Platform:</p>
                     <div className="gmeet_container" >
-                        <img src={gmeet} data-aos="fade-up"/>
+                        <img src={gmeet} data-aos="fade-up" />
                     </div>
                 </div>
             </div>
