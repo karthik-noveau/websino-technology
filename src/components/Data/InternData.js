@@ -5,7 +5,7 @@ export const InternData=[
         link:"/I_page_7"
     },
     {
-        image:"https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_10.png?alt=media&token=1778f356-24ac-4de2-ba02-b25c4f42c22e",
+        image:"https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_10.png?alt=media&token=9bba5ddd-56a4-43f7-8bd9-7f77d8878316",
         text:"Learn C programming language",
         link:"/I_page_10"
     },
@@ -48,5 +48,10 @@ export const InternData=[
         image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_14.png?alt=media&token=5ec9c476-c100-467a-953e-7daff5ea23b8",
         text: "Learn MERN Full Stack ",
         link: "/I_page_14"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_15.png?alt=media&token=919e592f-6acc-4651-9a81-89dee4db6648",
+        text: "Learn UI / UX with Figma ",
+        link: "/I_page_15"
     },
 ]

@@ -59,7 +59,7 @@ function Home() {
                         </div>
                         <div className="whatwedo_cont_sub2" data-aos="fade-up">
                             <BiPen id='whatwe_icon' />
-                            <h3>Grapic Design</h3>
+                            <h3>Graphic Design</h3>
                             <button>Know more</button>
                         </div>
                         <div className="whatwedo_cont_sub2" data-aos="fade-up">

@@ -30,7 +30,7 @@ export const CourseData = [
         link: "/C_page_7"
     },
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_10.png?alt=media&token=1778f356-24ac-4de2-ba02-b25c4f42c22e",
+        image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_10.png?alt=media&token=9bba5ddd-56a4-43f7-8bd9-7f77d8878316",
         text: "Learn C programming language",
         link: "/C_page_10"
     },

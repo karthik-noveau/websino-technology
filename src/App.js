@@ -40,6 +40,7 @@ const I_page_10 = React.lazy(() => import('./components/Intern-pages/I_page_10')
 const I_page_12 = React.lazy(() => import('./components/Intern-pages/I_page_12'));
 const I_page_13 = React.lazy(() => import('./components/Intern-pages/I_page_13'));
 const I_page_14 = React.lazy(() => import('./components/Intern-pages/I_page_14'));
+const I_page_15 = React.lazy(() => import('./components/Intern-pages/I_page_15'));
 const Header = React.lazy(() => import('./components/pages/Header'));
 
 
@@ -106,6 +107,7 @@ function App() {
               <Route path="/I_page_12" element={<React.Suspense fallback={<Loader />}><I_page_12 /></React.Suspense>} />
               <Route path="/I_page_13" element={<React.Suspense fallback={<Loader />}><I_page_13 /></React.Suspense>} />
               <Route path="/I_page_14" element={<React.Suspense fallback={<Loader />}><I_page_14 /></React.Suspense>} />
+              <Route path="/I_page_15" element={<React.Suspense fallback={<Loader />}><I_page_15 /></React.Suspense>} />
             </Routes>
 
             <Footer />

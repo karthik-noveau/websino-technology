@@ -335,5 +335,29 @@
         ],
         price: 2000
     },
+    {
+        id: 15,
+        C_title: " UI / UX Design using Figma",
+        image: "https://firebasestorage.googleapis.com/v0/b/skynoveau-office.appspot.com/o/Courses%2Fc_img_15.png?alt=media&token=919e592f-6acc-4651-9a81-89dee4db6648",
+        C_des: "Enhance your Designing skills by learning Figma",
+        topics: [
+            {
+                t1: "Basic setup of Figma software"
+            },
+            {
+                t1: "how to start the design with mobile and desktop size"
+            },
+            {
+                t1: "how to use plugins"
+            },
+            {
+                t1: "Figma prototype with the design"
+            },
+            {
+                t1: "hands On projects"
+            }
+        ],
+        price: 2000
+    },
     
 ]
