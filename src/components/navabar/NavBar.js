@@ -47,8 +47,8 @@ function NavBar() {
                         <div className="menu_b_items_cont">
                             <ul>
                                 <li><Link to="/Home">Home</Link></li>
-                                <li><Link to="/About">About</Link></li>
-                                <li><a href="https://skynoveau.netlify.app/" target="_blank">Portfolio</a></li>
+                                {/* <li><Link to="/About">About</Link></li> */}
+                                {/* <li><a href="https://skynoveau.netlify.app/" target="_blank">Portfolio</a></li> */}
                                 <li><Link to="/Payment">Payment</Link></li>
                             </ul>
                         </div>

@@ -55,8 +55,8 @@ function C_page_9() {
                                 <div className="pay_main_container">
                                     <img src={payment} />
                                     <p>Rs: ₹{Course_page_Data[8].price}/-</p>
-                                    <a href="https://forms.gle/AVB8q9r5ZoV2uYf46" target="_blank"><button>Register here</button></a>
-                                    <button onClick={handleSubmit}>Click here to Payment</button>
+                                    <a href="https://forms.gle/NsYpqTHJhmbGvs7Q7" target="_blank"><button>Register here</button></a>
+                          
                                 </div>
                             </div>
 

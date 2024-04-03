@@ -4,6 +4,8 @@ import { useState } from 'react'
 import whatsapp_icon from './components/Assets/whatsapp_icon.png'
 import Loader from './components/Loader/Loader';
 
+import "./app.css"
+
 
 const Home = React.lazy(() => import('./components/pages/Home'));
 const About = React.lazy(() => import('./components/pages/About'));
@@ -66,8 +68,11 @@ function App() {
       {
         loader ? <Loader /> : (
           <div>
-            <div>
+            {/* <div>
               <a href="https://wa.link/y2gz6b" target="_blank"><img src={whatsapp_icon} style={{ width: "52px", position: "fixed", right: "17px", bottom: "17px", zIndex: "2" }} /></a>
+            </div> */}
+            <div className='homeFixedBg'>
+
             </div>
             <Header />
 

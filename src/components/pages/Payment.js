@@ -51,13 +51,13 @@ function Payment() {
                 <p>( or )</p>
             </div>
 
-            <div className="gpay_icon">
+            {/* <div className="gpay_icon">
                 <div className="gpay_icon_container" data-aos="flip-left">
                     <img src={gpay_icon} />
                     <p>+91 9360375911</p>
                 </div>
             </div>
-            <p className="upi" data-aos="flip-right">UPI ID : karthik51120001@okaxis</p>
+            <p className="upi" data-aos="flip-right">UPI ID : karthik51120001@okaxis</p> */}
 
             <div className="pay_container">
                 <img src={razorpay} />

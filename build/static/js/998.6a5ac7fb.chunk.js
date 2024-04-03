@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknew=self.webpackChunknew||[]).push([[998],{9497:(e,n,a)=>{a.r(n),a.d(n,{default:()=>o});const o=function(e){var n={key:"rzp_live_xxDTbbEYUCIKe9",key_secret:"O281iyZhSQ26i2eektLJU6Uz",amount:100*e.amount,currency:"INR",name:"Skynoveau Technology",description:"payment",handler:function(e){alert(e.razorpay_payment_id)},notes:{address:"Razorpay Corporate office"},theme:{color:"rgb(0, 82, 0)"}};new window.Razorpay(n).open()}}}]);
+//# sourceMappingURL=998.6a5ac7fb.chunk.js.map

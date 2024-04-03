@@ -55,8 +55,8 @@ function I_page_13() {
                                 <div className="pay_main_container">
                                     <img src={payment} />
                                     <p>Rs: ₹{Intern_page_Data[11].price}/-</p>
-                                    <a href="https://forms.gle/kgiuKt6ZKi6R5C5q6" target="_blank"><button>Register here</button></a>
-                                    <button onClick={handleSubmit}>Click here to Payment</button>
+                                    <a href="https://forms.gle/NsYpqTHJhmbGvs7Q7" target="_blank"><button>Register here</button></a>
+                          
 
                                 </div>
                             </div>

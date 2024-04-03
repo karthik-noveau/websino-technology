@@ -5,7 +5,16 @@
     flex-direction: column;
     align-items: center;
 }
-
+.newBannerImgContainer{
+margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.newBannerImg{
+    width: 95%;
+    object-fit: cover;
+}
 .title_1 p {
     font-size: 45px;
     color: black;
@@ -35,6 +44,7 @@
     font-size:28px;
     margin-top: 20px;
     margin-bottom: 5px;
+    margin-inline: 50px;
    
 }
 .footer_line1{
@@ -294,14 +304,14 @@
     height: 292px;
     box-shadow: 1px 1px 10px 1px grey;
     margin: 10px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     position: relative;
 
 }
 
 .courses .item_1_container img {
     width: 100%;
-    border-radius: 8px 8px 0px 0px;
+    /* border-radius: 8px 8px 0px 0px; */
 }
 
 .courses .item_1_container p {
@@ -313,7 +323,7 @@
 
 .courses .item_1_container button {
     border: 1px solid transparent;
-    background-color: #00ff84;
+    background-color: #30343d30;
     padding: 5px 8px;
     border-radius: 5px;
     font-weight: bold;
